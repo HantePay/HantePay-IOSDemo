@@ -1,0 +1,1 @@
+../../../../AlipaySDK-iOS/AlipaySDk/AlipaySDK.framework/Headers/APayAuthInfo.h

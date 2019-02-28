@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MfS-H3-k8T">
+                                <rect key="frame" x="147" y="463" width="160" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="160" id="8qU-uJ-5V4"/>
+                                    <constraint firstAttribute="height" constant="40" id="fie-yZ-O7m"/>
+                                </constraints>
+                                <state key="normal" title="AlipayPay "/>
+                                <connections>
+                                    <action selector="payAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ttv-U1-iKw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SN1-xX-cxM">
+                                <rect key="frame" x="147" y="533" width="160" height="40"/>
+                                <state key="normal" title="WechatPay"/>
+                                <connections>
+                                    <action selector="payAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="k3f-j2-Sae"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="订单金额" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Opg-y1-6iz">
+                                <rect key="frame" x="87" y="323" width="200" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="订单号" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="C0y-41-yJx">
+                                <rect key="frame" x="87" y="383" width="200" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="CX8-Je-SmQ"/>
+                                    <constraint firstAttribute="width" constant="200" id="sSf-KM-Z3g"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nrq-aM-lg0">
+                                <rect key="frame" x="295" y="383" width="62" height="30"/>
+                                <state key="normal" title="随机生成"/>
+                                <connections>
+                                    <action selector="getReference:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UHt-eT-YGg"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wechat.png" translatesAutoresizingMaskIntoConstraints="NO" id="bGN-cp-4M0">
+                                <rect key="frame" x="106" y="533" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="Pnl-mv-OeY"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Currency: USD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="art-Xv-Kru">
+                                <rect key="frame" x="150" y="272" width="114" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="aliapy.png" translatesAutoresizingMaskIntoConstraints="NO" id="W4V-dM-72x">
+                                <rect key="frame" x="106" y="463" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="awa-gx-IFe"/>
+                                    <constraint firstAttribute="height" constant="40" id="ffP-vI-LX9"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Nrq-aM-lg0" firstAttribute="leading" secondItem="C0y-41-yJx" secondAttribute="trailing" constant="8" id="4U4-Xq-KUC"/>
+                            <constraint firstItem="SN1-xX-cxM" firstAttribute="leading" secondItem="bGN-cp-4M0" secondAttribute="trailing" constant="1" id="8T2-2Q-SVF"/>
+                            <constraint firstItem="C0y-41-yJx" firstAttribute="top" secondItem="Opg-y1-6iz" secondAttribute="bottom" constant="30" id="8Z5-zK-NhR"/>
+                            <constraint firstItem="Nrq-aM-lg0" firstAttribute="centerY" secondItem="C0y-41-yJx" secondAttribute="centerY" id="8lW-aN-d54"/>
+                            <constraint firstItem="SN1-xX-cxM" firstAttribute="top" secondItem="MfS-H3-k8T" secondAttribute="bottom" constant="30" id="FSP-4k-OA1"/>
+                            <constraint firstItem="C0y-41-yJx" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-50" id="HhU-cU-Msr"/>
+                            <constraint firstItem="MfS-H3-k8T" firstAttribute="trailing" secondItem="C0y-41-yJx" secondAttribute="trailing" constant="20" id="KzS-BF-gua"/>
+                            <constraint firstItem="art-Xv-Kru" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NWM-fq-n1I"/>
+                            <constraint firstItem="C0y-41-yJx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-20" id="Nim-96-2kw"/>
+                            <constraint firstItem="MfS-H3-k8T" firstAttribute="centerY" secondItem="W4V-dM-72x" secondAttribute="centerY" id="QFP-s5-FoG"/>
+                            <constraint firstItem="SN1-xX-cxM" firstAttribute="height" secondItem="bGN-cp-4M0" secondAttribute="height" id="WPd-lG-Xaq"/>
+                            <constraint firstItem="SN1-xX-cxM" firstAttribute="width" secondItem="MfS-H3-k8T" secondAttribute="width" id="XVp-iw-Obb"/>
+                            <constraint firstItem="C0y-41-yJx" firstAttribute="trailing" secondItem="Opg-y1-6iz" secondAttribute="trailing" id="Z42-wj-g0i"/>
+                            <constraint firstItem="SN1-xX-cxM" firstAttribute="height" secondItem="MfS-H3-k8T" secondAttribute="height" id="aGi-If-VWp"/>
+                            <constraint firstItem="bGN-cp-4M0" firstAttribute="centerY" secondItem="SN1-xX-cxM" secondAttribute="centerY" id="c3a-Zp-eIM"/>
+                            <constraint firstItem="C0y-41-yJx" firstAttribute="leading" secondItem="Opg-y1-6iz" secondAttribute="leading" id="dS4-gp-oDY"/>
+                            <constraint firstItem="MfS-H3-k8T" firstAttribute="top" secondItem="C0y-41-yJx" secondAttribute="bottom" constant="50" id="hgS-FK-2yT"/>
+                            <constraint firstItem="MfS-H3-k8T" firstAttribute="leading" secondItem="W4V-dM-72x" secondAttribute="trailing" constant="1" id="ow6-ku-Qng"/>
+                            <constraint firstItem="Opg-y1-6iz" firstAttribute="top" secondItem="art-Xv-Kru" secondAttribute="bottom" constant="30" id="qku-BD-9i8"/>
+                            <constraint firstItem="SN1-xX-cxM" firstAttribute="trailing" secondItem="MfS-H3-k8T" secondAttribute="trailing" id="us6-fa-1jI"/>
+                            <constraint firstItem="SN1-xX-cxM" firstAttribute="leading" secondItem="MfS-H3-k8T" secondAttribute="leading" id="wBC-Ny-u7q"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="alipayActionBtn" destination="MfS-H3-k8T" id="mwY-Je-pVM"/>
+                        <outlet property="amountTF" destination="Opg-y1-6iz" id="Jyt-sq-D8V"/>
+                        <outlet property="referenceTF" destination="C0y-41-yJx" id="yP4-I2-I2N"/>
+                        <outlet property="wechatpayActionBtn" destination="SN1-xX-cxM" id="vN7-9t-3Wi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.23188405797103" y="133.25892857142856"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="aliapy.png" width="500" height="500"/>
+        <image name="wechat.png" width="566" height="500"/>
+    </resources>
+</document>

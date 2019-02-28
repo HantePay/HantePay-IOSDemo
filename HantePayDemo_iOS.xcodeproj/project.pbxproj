@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B41AC6DDE77AF5CA48F68645 /* libPods-HantePayDemo_iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BC9C1DB3537777EE769137A /* libPods-HantePayDemo_iOS.a */; };
+		FE2F59FF2226A66B00460CCF /* WXApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2F59FE2226A66B00460CCF /* WXApiManager.m */; };
+		FE3EA7F621E33617004A3BFC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3EA7F521E33617004A3BFC /* AppDelegate.m */; };
+		FE3EA7F921E33617004A3BFC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3EA7F821E33617004A3BFC /* ViewController.m */; };
+		FE3EA7FC21E33617004A3BFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE3EA7FA21E33617004A3BFC /* Main.storyboard */; };
+		FE3EA7FE21E3361A004A3BFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE3EA7FD21E3361A004A3BFC /* Assets.xcassets */; };
+		FE3EA80121E3361A004A3BFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE3EA7FF21E3361A004A3BFC /* LaunchScreen.storyboard */; };
+		FE3EA80421E3361A004A3BFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3EA80321E3361A004A3BFC /* main.m */; };
+		FE3EA80B21E337D7004A3BFC /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FE3EA80A21E337D7004A3BFC /* libc++.tbd */; };
+		FE3EA80D21E337E0004A3BFC /* libc.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FE3EA80C21E337E0004A3BFC /* libc.tbd */; };
+		FE3EA80F21E337EA004A3BFC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE3EA80E21E337EA004A3BFC /* SystemConfiguration.framework */; };
+		FE3EA81121E337F5004A3BFC /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE3EA81021E337F5004A3BFC /* CoreTelephony.framework */; };
+		FE3EA81321E337FE004A3BFC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE3EA81221E337FE004A3BFC /* QuartzCore.framework */; };
+		FE3EA81521E33807004A3BFC /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE3EA81421E33807004A3BFC /* CoreText.framework */; };
+		FE3EA81721E33820004A3BFC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE3EA81621E33820004A3BFC /* CoreGraphics.framework */; };
+		FE3EA81921E3382C004A3BFC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE3EA81821E3382C004A3BFC /* UIKit.framework */; };
+		FE3EA81B21E33841004A3BFC /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE3EA81A21E33841004A3BFC /* CFNetwork.framework */; };
+		FE3EA81D21E3384C004A3BFC /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE3EA81C21E3384C004A3BFC /* CoreMotion.framework */; };
+		FE3EA81F21E33A95004A3BFC /* aliapy.png in Resources */ = {isa = PBXBuildFile; fileRef = FE3EA81E21E33A95004A3BFC /* aliapy.png */; };
+		FE3EA82121E33A9C004A3BFC /* wechat.png in Resources */ = {isa = PBXBuildFile; fileRef = FE3EA82021E33A9C004A3BFC /* wechat.png */; };
+		FE3EA82421E33DA6004A3BFC /* HantePayOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3EA82321E33DA6004A3BFC /* HantePayOrder.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0579356D0A5D33AE0890BA24 /* Pods-HantePayDemo_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HantePayDemo_iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-HantePayDemo_iOS/Pods-HantePayDemo_iOS.release.xcconfig"; sourceTree = "<group>"; };
+		8BC9C1DB3537777EE769137A /* libPods-HantePayDemo_iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HantePayDemo_iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E427845273EC3AF23D866697 /* Pods-HantePayDemo_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HantePayDemo_iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HantePayDemo_iOS/Pods-HantePayDemo_iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		FE2F59FD2226A66B00460CCF /* WXApiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiManager.h; sourceTree = "<group>"; };
+		FE2F59FE2226A66B00460CCF /* WXApiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXApiManager.m; sourceTree = "<group>"; };
+		FE3EA7F121E33617004A3BFC /* HantePayDemo_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HantePayDemo_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE3EA7F421E33617004A3BFC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FE3EA7F521E33617004A3BFC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FE3EA7F721E33617004A3BFC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FE3EA7F821E33617004A3BFC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FE3EA7FB21E33617004A3BFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE3EA7FD21E3361A004A3BFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE3EA80021E3361A004A3BFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE3EA80221E3361A004A3BFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE3EA80321E3361A004A3BFC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FE3EA80A21E337D7004A3BFC /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		FE3EA80C21E337E0004A3BFC /* libc.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libc.tbd; path = usr/lib/libc.tbd; sourceTree = SDKROOT; };
+		FE3EA80E21E337EA004A3BFC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		FE3EA81021E337F5004A3BFC /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		FE3EA81221E337FE004A3BFC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FE3EA81421E33807004A3BFC /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		FE3EA81621E33820004A3BFC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FE3EA81821E3382C004A3BFC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FE3EA81A21E33841004A3BFC /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		FE3EA81C21E3384C004A3BFC /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		FE3EA81E21E33A95004A3BFC /* aliapy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aliapy.png; sourceTree = "<group>"; };
+		FE3EA82021E33A9C004A3BFC /* wechat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wechat.png; sourceTree = "<group>"; };
+		FE3EA82221E33DA6004A3BFC /* HantePayOrder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HantePayOrder.h; sourceTree = "<group>"; };
+		FE3EA82321E33DA6004A3BFC /* HantePayOrder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HantePayOrder.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE3EA7EE21E33617004A3BFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE3EA81D21E3384C004A3BFC /* CoreMotion.framework in Frameworks */,
+				FE3EA81B21E33841004A3BFC /* CFNetwork.framework in Frameworks */,
+				FE3EA81921E3382C004A3BFC /* UIKit.framework in Frameworks */,
+				FE3EA81721E33820004A3BFC /* CoreGraphics.framework in Frameworks */,
+				FE3EA81521E33807004A3BFC /* CoreText.framework in Frameworks */,
+				FE3EA81321E337FE004A3BFC /* QuartzCore.framework in Frameworks */,
+				FE3EA81121E337F5004A3BFC /* CoreTelephony.framework in Frameworks */,
+				FE3EA80F21E337EA004A3BFC /* SystemConfiguration.framework in Frameworks */,
+				FE3EA80D21E337E0004A3BFC /* libc.tbd in Frameworks */,
+				FE3EA80B21E337D7004A3BFC /* libc++.tbd in Frameworks */,
+				B41AC6DDE77AF5CA48F68645 /* libPods-HantePayDemo_iOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A43E3B781E10D3FFD90E480 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E427845273EC3AF23D866697 /* Pods-HantePayDemo_iOS.debug.xcconfig */,
+				0579356D0A5D33AE0890BA24 /* Pods-HantePayDemo_iOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ACD1033777484EB51634BCD5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE3EA81C21E3384C004A3BFC /* CoreMotion.framework */,
+				FE3EA81A21E33841004A3BFC /* CFNetwork.framework */,
+				FE3EA81821E3382C004A3BFC /* UIKit.framework */,
+				FE3EA81621E33820004A3BFC /* CoreGraphics.framework */,
+				FE3EA81421E33807004A3BFC /* CoreText.framework */,
+				FE3EA81221E337FE004A3BFC /* QuartzCore.framework */,
+				FE3EA81021E337F5004A3BFC /* CoreTelephony.framework */,
+				FE3EA80E21E337EA004A3BFC /* SystemConfiguration.framework */,
+				FE3EA80C21E337E0004A3BFC /* libc.tbd */,
+				FE3EA80A21E337D7004A3BFC /* libc++.tbd */,
+				8BC9C1DB3537777EE769137A /* libPods-HantePayDemo_iOS.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE3EA7E821E33617004A3BFC = {
+			isa = PBXGroup;
+			children = (
+				FE3EA7F321E33617004A3BFC /* HantePayDemo_iOS */,
+				FE3EA7F221E33617004A3BFC /* Products */,
+				3A43E3B781E10D3FFD90E480 /* Pods */,
+				ACD1033777484EB51634BCD5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FE3EA7F221E33617004A3BFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE3EA7F121E33617004A3BFC /* HantePayDemo_iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE3EA7F321E33617004A3BFC /* HantePayDemo_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				FE3EA81E21E33A95004A3BFC /* aliapy.png */,
+				FE3EA82021E33A9C004A3BFC /* wechat.png */,
+				FE3EA7F421E33617004A3BFC /* AppDelegate.h */,
+				FE3EA7F521E33617004A3BFC /* AppDelegate.m */,
+				FE3EA7F721E33617004A3BFC /* ViewController.h */,
+				FE3EA7F821E33617004A3BFC /* ViewController.m */,
+				FE3EA7FA21E33617004A3BFC /* Main.storyboard */,
+				FE3EA7FD21E3361A004A3BFC /* Assets.xcassets */,
+				FE3EA7FF21E3361A004A3BFC /* LaunchScreen.storyboard */,
+				FE3EA80221E3361A004A3BFC /* Info.plist */,
+				FE3EA80321E3361A004A3BFC /* main.m */,
+				FE3EA82221E33DA6004A3BFC /* HantePayOrder.h */,
+				FE3EA82321E33DA6004A3BFC /* HantePayOrder.m */,
+				FE2F59FD2226A66B00460CCF /* WXApiManager.h */,
+				FE2F59FE2226A66B00460CCF /* WXApiManager.m */,
+			);
+			path = HantePayDemo_iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE3EA7F021E33617004A3BFC /* HantePayDemo_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE3EA80721E3361A004A3BFC /* Build configuration list for PBXNativeTarget "HantePayDemo_iOS" */;
+			buildPhases = (
+				D56CDB2E4D9800400A9710B5 /* [CP] Check Pods Manifest.lock */,
+				FE3EA7ED21E33617004A3BFC /* Sources */,
+				FE3EA7EE21E33617004A3BFC /* Frameworks */,
+				FE3EA7EF21E33617004A3BFC /* Resources */,
+				FA2D824DA5D64B6BC2E2E52B /* [CP] Embed Pods Frameworks */,
+				938FAB48370FCF92D17061B4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HantePayDemo_iOS;
+			productName = HantePayDemo_iOS;
+			productReference = FE3EA7F121E33617004A3BFC /* HantePayDemo_iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE3EA7E921E33617004A3BFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = zhongliang;
+				TargetAttributes = {
+					FE3EA7F021E33617004A3BFC = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = FE3EA7EC21E33617004A3BFC /* Build configuration list for PBXProject "HantePayDemo_iOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE3EA7E821E33617004A3BFC;
+			productRefGroup = FE3EA7F221E33617004A3BFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE3EA7F021E33617004A3BFC /* HantePayDemo_iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE3EA7EF21E33617004A3BFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE3EA80121E3361A004A3BFC /* LaunchScreen.storyboard in Resources */,
+				FE3EA81F21E33A95004A3BFC /* aliapy.png in Resources */,
+				FE3EA7FE21E3361A004A3BFC /* Assets.xcassets in Resources */,
+				FE3EA82121E33A9C004A3BFC /* wechat.png in Resources */,
+				FE3EA7FC21E33617004A3BFC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		938FAB48370FCF92D17061B4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HantePayDemo_iOS/Pods-HantePayDemo_iOS-resources.sh",
+				"${PODS_ROOT}/AlipaySDK-iOS/AlipaySDk/AlipaySDK.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AlipaySDK.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HantePayDemo_iOS/Pods-HantePayDemo_iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D56CDB2E4D9800400A9710B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HantePayDemo_iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA2D824DA5D64B6BC2E2E52B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HantePayDemo_iOS/Pods-HantePayDemo_iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE3EA7ED21E33617004A3BFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE3EA82421E33DA6004A3BFC /* HantePayOrder.m in Sources */,
+				FE3EA7F921E33617004A3BFC /* ViewController.m in Sources */,
+				FE3EA80421E3361A004A3BFC /* main.m in Sources */,
+				FE2F59FF2226A66B00460CCF /* WXApiManager.m in Sources */,
+				FE3EA7F621E33617004A3BFC /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FE3EA7FA21E33617004A3BFC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE3EA7FB21E33617004A3BFC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE3EA7FF21E3361A004A3BFC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE3EA80021E3361A004A3BFC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE3EA80521E3361A004A3BFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FE3EA80621E3361A004A3BFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE3EA80821E3361A004A3BFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E427845273EC3AF23D866697 /* Pods-HantePayDemo_iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LWJ9E7ZG6V;
+				INFOPLIST_FILE = HantePayDemo_iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hante.HantePayDemo-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE3EA80921E3361A004A3BFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0579356D0A5D33AE0890BA24 /* Pods-HantePayDemo_iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LWJ9E7ZG6V;
+				INFOPLIST_FILE = HantePayDemo_iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hante.HantePayDemo-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE3EA7EC21E33617004A3BFC /* Build configuration list for PBXProject "HantePayDemo_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE3EA80521E3361A004A3BFC /* Debug */,
+				FE3EA80621E3361A004A3BFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE3EA80721E3361A004A3BFC /* Build configuration list for PBXNativeTarget "HantePayDemo_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE3EA80821E3361A004A3BFC /* Debug */,
+				FE3EA80921E3361A004A3BFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE3EA7E921E33617004A3BFC /* Project object */;
+}

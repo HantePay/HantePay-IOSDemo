@@ -1,0 +1,7 @@
+platform :ios, '8.0'
+
+target "HantePayDemo_iOS" do
+
+pod 'AlipaySDK-iOS'
+pod 'WechatOpenSDK'
+end
